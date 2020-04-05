@@ -1,4 +1,3 @@
-import codecademylib
 import pandas as pd
 
 df = pd.read_csv('inventory.csv')
