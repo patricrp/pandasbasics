@@ -5,7 +5,7 @@ y1 = [0, 10, 20, 30, 40, 50]
 y2 = [0, 15, 30, 45, 60, 75]
 
 plt.figure()
-plt.plot(x, y1, color='pink', linestyle='-' marker='o')
+plt.plot(x, y1, color='pink', linestyle='-', marker='o')
 plt.plot(x, y2, color='gray', linestyle='-', marker='o')
 plt.title('Two Lines on One Graph')
 ax = plt.subplot()
