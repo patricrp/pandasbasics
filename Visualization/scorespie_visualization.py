@@ -7,5 +7,8 @@ plt.figure(figsize=(10, 8))
 plt.pie(num_hardest_reported, labels= unit_topics, autopct='%d%%')
 plt.axis('equal')
 plt.title('Hardest Topics')
-plt.savefig('my_pie_chart.png')
+
 plt.show()
+
+
+plt.savefig('my_pie_chart.png')

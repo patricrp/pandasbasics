@@ -33,5 +33,8 @@ plt.ylabel('Sales')
 plt.title('Limes types sold')
 ax2.set_xticks(x_values)
 ax2.set_xticklabels(months)
-plt.savefig('Types of limes')
+
 plt.show()
+
+
+plt.savefig('Types of limes')

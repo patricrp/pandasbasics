@@ -7,11 +7,13 @@ hours_lower_bound = [i - (i*0.2) for i in hours_reported]
 hours_upper_bound = [i + (i*0.2) for i in hours_reported]
 
 plt.figure(figsize=(10, 8))
-plt.fill_between(hours_reported, hours_lower_bound, hours_upper_bound, alpha=0.2)
 plt.plot(exam_scores, hours_reported, linewidth=2)
+plt.fill_between(hours_reported, hours_lower_bound, hours_upper_bound, alpha=0.2)
 plt.title('Time spent studying vs final exam scores')
 plt.xlabel('Score')
 plt.ylabel('Hours studying (self-reported)')
-plt.savefig('my_line_graph.png')
 
 plt.show()
+
+
+plt.savefig('my_line_graph.png')

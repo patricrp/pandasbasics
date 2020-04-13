@@ -10,5 +10,8 @@ plt.legend(['1st Yr Teaching','2nd Yr Teaching'])
 plt.title('Final Exam Score Distribution')
 plt.xlabel('Percentage')
 plt.ylabel('Frequency')
-plt.savefig('my_histogram.png')
+
 plt.show()
+
+
+plt.savefig('my_histogram.png')
