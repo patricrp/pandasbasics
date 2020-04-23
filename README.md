@@ -9,3 +9,5 @@ Roller Coaster: https://www.codecademy.com/practice/projects/roller-coaster
 A/B Testing for ShoeFly: https://www.codecademy.com/paths/data-science/tracks/data-processing-pandas/modules/dspath-agg-pandas/projects/pandas-shoefly-ab-test
 
 Jeopardy: https://www.codecademy.com/practice/projects/this-is-jeopardy
+
+Page Visits Funnel: https://www.codecademy.com/paths/data-science/tracks/data-processing-pandas/modules/dspath-multiple-tables-pandas/projects/multi-tables-proj
